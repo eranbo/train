@@ -29,6 +29,6 @@ class Data {
             {id: 8, name: "Ori", type: "Contact"}
         ];
     }
-};
+}
 
 export default new Data();

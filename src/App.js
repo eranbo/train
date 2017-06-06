@@ -13,9 +13,7 @@ class App extends Component {
                         if (item.type === "Group") {
                             return <Group key={item.id} item={item}></Group>
                         } else {
-                            return <li className="item" key={item.id} onClick={event => {
-                                event.bubbles = false;
-                            }}>{item.name}</li>
+                            return <li className="item" key={item.id}>{item.name}</li>
                         }
                     })}
                 </ul>

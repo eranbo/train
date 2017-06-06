@@ -18,7 +18,6 @@ export default class Group extends Component {
         this.setState(prevState => ({
             isToggleOn: !prevState.isToggleOn
         }));
-
     }
 
     render() {
